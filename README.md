@@ -10,7 +10,7 @@ Once you have the app script written just run the app on your local machine and 
 ## Part 2: HTTPS on localhost via ngrok
 If you already have a machine that has a visible IP you can use it to run the `plumber` service (just make sure you open the ports and setup HTTPS correctly). However this is not a must. If you only want to test stuff I recommend setting up everything on you local machine. Luckily the good people at Slack wrote a great post on (running a local server)[https://api.slack.com/tutorials/tunneling-with-ngrok], and it boils down to installing `ngrok` (as simple as `brew cask install ngrok` on my Mac), pointing it to the same port you used for `plumber` and using the provided HTTPS url when creating the Slack app. Voila!
 
-## Part 2: Slack
+## Part 3: Slack
 Creating your own space for testing is fairly straight forward (you'll have to register). Once you're logged in, goto (https://api.slack.com/apps)[https://api.slack.com/apps], create your own app and use the HTTPS url you got from `ngrok`. 
 
 ## Credits
