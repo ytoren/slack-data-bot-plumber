@@ -1,3 +1,5 @@
+[Back to my projects page](/)
+
 # Plumber + Slack = chatbot (of sorts)
 
 This repo contains code that demonstrate a simple use of R's `plumber` package to build a Slack app that can provide useful data using the Slack API. 
