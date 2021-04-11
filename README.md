@@ -5,7 +5,7 @@
 This repo contains code that demonstrate a simple use of R's `plumber` package to build a Slack app that can provide useful data using the Slack API. 
 
 ## Part 1: Plumber
-The R package `plumber` ([https://www.rplumber.io](https://www.rplumber.io/)) is the main engine behind all of this. If you already have some idea about how the HTTP API wprks you can get almost everything you need from the intro page. If you don't make sure you read the (documentation)[https://www.rplumber.io/docs/] - you can focus on info secions in parts 1-4.
+The R package `plumber` ([https://www.rplumber.io](https://www.rplumber.io/)) is the main engine behind all of this. If you already have some idea about how the HTTP API wprks you can get almost everything you need from the intro page. If you don't make sure you read the (documentation)[https://www.rplumber.io/docs/] - you can focus on info sections in parts 1-4.
 
 Once you have the app script written just run the app on your local machine and test that it's working in your browser (dont' worry, it's all in the (quickstart)[https://www.rplumber.io/docs/quickstart.html]). Depending on your platform, you might want to do more programmatic testing using `curl`.
 
